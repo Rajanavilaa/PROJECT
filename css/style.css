@@ -1,0 +1,271 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 15px 30px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+
+
+/* Navbar links styling */
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 20px;
+}
+
+.nav-links a {
+    color:white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color:  #F0E68C ;
+}
+
+
+.Hotel {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25px;
+    height: 21px;
+}
+
+.Hotel .bar {
+    background-color: white;
+    height: 4px;
+    width: 100%;
+    border-radius: 2px;
+}
+
+/* Toggle the visibility of links on mobile */
+.nav-links.active {
+    display: block;
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    background-color: #333;
+    width: 200px;
+    border-radius: 5px;
+    text-align: right;
+}
+
+.nav-links.active li {
+    margin: 10px 0;
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .Hotel {
+        display: flex;
+    }
+}
+
+
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and text styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Footer container */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Footer section styling */
+.footer-section {
+    flex: 1;
+    margin: 20px;
+    min-width: 250px;
+}
+
+/* Heading styling */
+.footer-section h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+/* About section styling */
+.about p {
+    font-size: 16px;
+    color: #ccc;
+}
+
+/* Quick Links styling */
+.links ul {
+    list-style-type: none;
+}
+
+.links ul li {
+    margin: 10px 0;
+}
+
+.links ul li a {
+    color: #bbb;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.links ul li a:hover {
+    color: #4CAF50;
+}
+
+/* Contact section styling */
+.contact p {
+    font-size: 16px;
+    color: #ccc;
+}
+
+
+/* Footer bottom section */
+.footer-bottom {
+    background-color: #222;
+    color: #aaa;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .footer-section {
+        margin: 10px 0;
+    }
+
+    .footer-bottom {
+        text-align: center;
+    }
+}
+
+.container {
+    background-color:  black;
+}
+
+
+.section-one .carousel-container img{
+    max-height: 750px;
+    object-fit: cover;
+}
+
+.section-two .home-container{
+    padding: 70px 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.img-container img{
+    width: 100%;
+    max-height: 800px;
+}
+
+
+--#{$prefix}card-spacer-y: #{$card-spacer-y};
+--#{$prefix}card-spacer-x: #{$card-spacer-x};
+--#{$prefix}card-title-spacer-y: #{$card-title-spacer-y};
+--#{$prefix}card-title-color: #{$card-title-color};
+--#{$prefix}card-subtitle-color: #{$card-subtitle-color};
+--#{$prefix}card-border-width: #{$card-border-width};
+--#{$prefix}card-border-color: #{$card-border-color};
+--#{$prefix}card-border-radius: #{$card-border-radius};
+--#{$prefix}card-box-shadow: #{$card-box-shadow};
+--#{$prefix}card-inner-border-radius: #{$card-inner-border-radius};
+--#{$prefix}card-cap-padding-y: #{$card-cap-padding-y};
+--#{$prefix}card-cap-padding-x: #{$card-cap-padding-x};
+--#{$prefix}card-cap-bg: #{$card-cap-bg};
+--#{$prefix}card-cap-color: #{$card-cap-color};
+--#{$prefix}card-height: #{$card-height};
+--#{$prefix}card-color: #{$card-color};
+--#{$prefix}card-bg: #{$card-bg};
+--#{$prefix}card-img-overlay-padding: #{$card-img-overlay-padding};
+--#{$prefix}card-group-margin: #{$card-group-margin};
+
+
+
+
+
+$card-spacer-y:                     $spacer;
+$card-spacer-x:                     $spacer;
+$card-title-spacer-y:               $spacer * .5;
+$card-title-color:                  null;
+$card-subtitle-color:               null;
+$card-border-width:                 var(--#{$prefix}border-width);
+$card-border-color:                 var(--#{$prefix}border-color-translucent);
+$card-border-radius:                var(--#{$prefix}border-radius);
+$card-box-shadow:                   null;
+$card-inner-border-radius:          subtract($card-border-radius, $card-border-width);
+$card-cap-padding-y:                $card-spacer-y * .5;
+$card-cap-padding-x:                $card-spacer-x;
+$card-cap-bg:                       rgba(var(--#{$prefix}body-color-rgb), .03);
+$card-cap-color:                    null;
+$card-height:                       null;
+$card-color:                        null;
+$card-bg:                           var(--#{$prefix}body-bg);
+$card-img-overlay-padding:          $spacer;
+$card-group-margin:                 $grid-gutter-width * .5;
+
+
+
+
+.row row-cols-1 row-cols-md-6 g-4{
+    padding: 60px 30px;
+}
+
+

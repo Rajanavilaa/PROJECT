@@ -1,0 +1,144 @@
+.section-five .event-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.section-five .event-container h2{
+    color: #3b6b2b;
+    padding: 60px 40px;
+}
+.section-five .event-container h3{
+    padding: 40px 20px;
+    color:#1f4526 ;
+}
+
+.section-five .event-container h1{
+	font-size: 35px;
+    text-align: center;
+    color:#3b6b2b ;
+    padding: 60px 20px;
+
+}
+
+
+.section-five .event-container p{
+	font-size: 25px;
+    color: #1f4526;
+
+}
+
+
+.section-five .event-container {
+	  padding: 80px 50px;
+}
+
+.events-img{
+    width: 100%;
+}
+
+
+/* Footer container */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Footer section styling */
+.footer-section {
+    flex: 1;
+    margin: 20px;
+    min-width: 250px;
+}
+
+/* Heading styling */
+.footer-section h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+/* About section styling */
+.about p {
+    font-size: 16px;
+    color: #ccc;
+}
+
+/* Quick Links styling */
+.links ul {
+    list-style-type: none;
+}
+
+.links ul li {
+    margin: 10px 0;
+}
+
+.links ul li a {
+    color: #bbb;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.links ul li a:hover {
+    color: #4CAF50;
+}
+
+/* Contact section styling */
+.contact p {
+    font-size: 16px;
+    color: #ccc;
+}
+
+
+/* Footer bottom section */
+.footer-bottom {
+    background-color: #222;
+    color: #aaa;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .footer-section {
+        margin: 10px 0;
+    }
+
+    .footer-bottom {
+        text-align: center;
+    }
+}
+
+.container {
+    background-color:  black;
+}
+
+.section-three h4{
+    padding: 50px 35px;
+    text-align: center;
+    color: #3b6b2b;
+    font-size: 39px;
+}
+
+.section-three  p{
+    padding: 50px 35px;
+    color: #1f4526;
+    font-size: 23px;
+}
